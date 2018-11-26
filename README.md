@@ -3,8 +3,10 @@
  <img src="https://vaadin.com/images/hero-reindeer.svg" width="200" height="200" /></a>
 </center>
 
-# Nano Vaadin - Ramp up in a second.
-A nano project to start a Vaadin project. Perfect for Micro-UIs packed as fat jar in a docker image.
+# Vaadin 10 - Nested RouterLayouts
+In this demo I will show, hwo you could build nested RouterLayouts in Vaadin 10 and following.
+The Project is compiled against JDK10, but the code itself should work with JDK8 and higher.
+
 
 ## target of this project
 The target of this project is a minimal rampup time for a first hello world.
@@ -14,21 +16,17 @@ there is no time and budget to create a demo project.
 You don´t want to copy paste all small things together.
 Here you will get a Nano-Project that will give you all in a second.
 
-Clone the repo and start editing the class ```BasicTestUI``` or ```BasicTestUIRunner```.
+Clone the repo and start editing the class ```VaadinApp``` or ```BasicTestUIRunner```.
 Nothing more. 
 
 ## How does it work?
 This project will not use any additional maven plugin or technology.
-Core Kotlin and the Vaadin Dependencies are all that you need to put 
-a Vaadin app into a Servlet-container.
 
 Here we are using the plain **meecrowave** as Servlet-Container.
 [http://openwebbeans.apache.org/meecrowave/index.html](http://openwebbeans.apache.org/meecrowave/index.html)
 
-
 As mentioned before, there is not additional technology involved.
 No DI to wire all things together. 
-
 But let´s start from the beginning.
 
 ## Start the Servlet-Container (Java)
